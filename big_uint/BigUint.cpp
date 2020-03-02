@@ -2,7 +2,8 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std;
+using std::vector;
+using std::string;
 
 
 class BigUint {
