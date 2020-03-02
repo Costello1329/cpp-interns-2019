@@ -10,7 +10,7 @@ private:
     vector<uint8_t> digits;
 
     BigUint (const vector<uint8_t> &digits)
-            : digits(digits)
+        : digits(digits)
     {}
 
     void readFromString (const string &str) {
@@ -41,13 +41,13 @@ public:
     }
 
     friend BigUint operator + (
-            const BigUint &firstOne,
-            const BigUint &secondOne
+        const BigUint &firstOne,
+        const BigUint &secondOne
     );
 
     friend BigUint operator * (
-            const BigUint &firstOne,
-            const BigUint &secondOne
+        const BigUint &firstOne,
+        const BigUint &secondOne
     );
 };
 
@@ -55,12 +55,12 @@ BigUint operator + (
     const BigUint &firstOne,
     const BigUint &secondOne
 ) {
-    // your code goes here
+    // Write your code here:
 }
 
 BigUint operator * (
     const BigUint &firstOne,
     const BigUint &secondOne
 ) {
-    // your code goes here
+    // Write your code here:
 }
