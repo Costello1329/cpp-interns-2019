@@ -7,4 +7,4 @@ At last, you can send your code to me, and I will make a review.
 
 ### PS:
 
-To run a `__some_file__.sh` script, you need to write `bash __some_file__.sh` in your terminal!
+To run a `__some_file__.sh` script, you need to write `bash __some_file__.sh` in your terminal.
