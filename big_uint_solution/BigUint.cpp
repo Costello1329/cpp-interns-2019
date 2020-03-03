@@ -107,11 +107,7 @@ BigUint operator * (
         }
     }
 
-    for (
-        ssize_t i = shortestOne.digits.size() + longestOne.digits.size() - 1;
-        i >= 0;
-        i --
-    ) {
+    for (size_t i = digits.size() - 1; i > 0; i --) {
         if (digits[i] != 0)
             break;
 
