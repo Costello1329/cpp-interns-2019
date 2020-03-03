@@ -115,8 +115,5 @@ BigUint operator * (
             digits.pop_back();
     }
 
-    if (digits.empty())
-        digits.push_back(0);
-
     return BigUint(digits);
 }
