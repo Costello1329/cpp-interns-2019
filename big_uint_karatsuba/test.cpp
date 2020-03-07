@@ -11,8 +11,8 @@ int main () {
 
     std::cout << firstNum << " " << command << " " << secondNum << " = ";
 
-    if (command == "+")
-        std::cout << (BigUint(firstNum) + BigUint(secondNum)).toString() << std::endl;
+    if (command == "-")
+        std::cout << (BigUint(firstNum) - BigUint(secondNum)).toString() << std::endl;
 
     else if (command == "x")
         std::cout << (BigUint(firstNum) * BigUint(secondNum)).toString() << std::endl;

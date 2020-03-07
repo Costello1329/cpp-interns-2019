@@ -7,8 +7,8 @@ result = arr[4]
 
 testPassed = False
 
-if command is "+":
-    testPassed = int(firstNumber) + int(secondNumber) == int(result)
+if command is "-":
+    testPassed = int(firstNumber) - int(secondNumber) == int(result)
 
 elif command is "x":
     testPassed = int(firstNumber) * int(secondNumber) == int(result)

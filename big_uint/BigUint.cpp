@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using std::vector;
 using std::string;
@@ -7,9 +8,9 @@ using std::string;
 
 class BigUint {
 private:
-    vector<uint8_t> digits;
+    vector<uint64_t> digits;
 
-    BigUint (const vector<uint8_t> &digits)
+    BigUint (const vector<uint64_t> &digits)
         : digits(digits)
     {}
 
@@ -55,12 +56,12 @@ BigUint operator + (
     const BigUint &firstOne,
     const BigUint &secondOne
 ) {
-    // Write your code here:
+    // Paste your code here.
 }
 
 BigUint operator * (
     const BigUint &firstOne,
     const BigUint &secondOne
 ) {
-    // Write your code here:
+    // Paste your code here.
 }
