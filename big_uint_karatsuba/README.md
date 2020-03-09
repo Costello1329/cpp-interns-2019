@@ -6,7 +6,7 @@ Then you can try to pass some autotests. To run tests for multiplication – use
 At last, you can send your code to me, and I will make a review.
 
 ### Warning:
-Do NOT modify any files, except BigUint.cpp.
+Do NOT modify any files, except BigUint.cpp (If you will ignore this rule, I will lower your mark).
 Paste the code ONLY where I wrote a comment for you: `// Paste your code here:`
 
 ### PS:
