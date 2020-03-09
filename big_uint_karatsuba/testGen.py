@@ -5,7 +5,7 @@ command = input()
 firstNum = randrange(10 ** randrange(100, 1000))
 secondNum = randrange(10 ** randrange(100, 1000))
 
-if command is "-":
+if command == "-":
     if firstNum < secondNum:
         temp = firstNum
         firstNum = secondNum
