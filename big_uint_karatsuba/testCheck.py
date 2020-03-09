@@ -7,10 +7,10 @@ result = arr[4]
 
 testPassed = False
 
-if command is "-":
+if command == "-":
     testPassed = int(firstNumber) - int(secondNumber) == int(result)
 
-elif command is "x":
+elif command == "x":
     testPassed = int(firstNumber) * int(secondNumber) == int(result)
 
 else:
