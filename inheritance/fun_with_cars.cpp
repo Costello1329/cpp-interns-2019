@@ -62,36 +62,42 @@ class Porsche : /** your code goes here **/ Car {
 int main () {
     /// Car car; /// Should not work, because you should delete public default constructor.
 
-    BMW bmw("red");
+    BMW bmw( "red");
     Porsche porsche("green", "coupe");
 
     /// bmw.increasePower(); /// Should not work, because user should only be provided
     /// to interact with the car, but not with the engine.
     /// porsche.decreasePower(); /// Same.
 
-    cout << "Acceleration test:" << endl;
-
     cout << "BMW" << endl;
+
+    cout << "Acceleration test:" << endl;
 
     while (bmw.getSpeed() != 300) {
         bmw.accelerate();
         cout << bmw.getSpeed() << endl;
     }
 
-    while (porsche.getSpeed() != 300) {
-        porsche.accelerate();
-        cout << porsche.getSpeed() << endl;
+    cout << "Deceleration test:" << endl;
+
+    while (bmw.getSpeed() != 0) {
+        bmw.decelerate();
+        cout << bmw.getSpeed() << endl;
     }
 
     cout << "Porsche" << endl;
 
-    while (bmw.getSpeed() != 300) {
-        bmw.accelerate();
-        cout << bmw.getSpeed() << endl;
+    cout << "Acceleration test:" << endl;
+
+    while (porsche.getSpeed() != 400) {
+        porsche.accelerate();
+        cout << porsche.getSpeed() << endl;
     }
 
-    while (porsche.getSpeed() != 300) {
-        porsche.accelerate();
+    cout << "Deceleration test:" << endl;
+
+    while (porsche.getSpeed() != 0) {
+        porsche.decelerate();
         cout << porsche.getSpeed() << endl;
     }
 
