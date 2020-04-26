@@ -17,7 +17,7 @@ You should declare:
     + public default constructor should be deleted by you (use `delete`).
     + empty destructor.
     + Two getters: `int getSpeed()` and
-    `const std::string getColor()`.
+    `const std::string &getColor()`.
     + You should NOT store current speed inside a variable, but
      you can get it from using this formula: `currentPower / 2` (this is an
      example, so the formula is as easy as possible :-) ).
