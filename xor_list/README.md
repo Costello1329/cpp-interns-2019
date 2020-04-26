@@ -8,7 +8,7 @@ You should create project, that will consist of two files: .h and .cpp.
 Provide the definitions and the declarations inside the .h file, and implementations inside the .cpp file.
 + You don't need to implement the iterator class for your list.
 
-##Rules
+## Rules
 + Don't use std containers (std::vector, std::list, etc...)
 + Use new and delete to allocate and deallocate the memory.
 + Split your code into three parts:
@@ -16,7 +16,7 @@ library-code definitions, library-code implementation, main file
 + Provide some tests of your code inside the int main () function.
 + Put some comments to explain what is happening inside your code.
 
-###Implement inside the class List:
+### Implement inside the class List:
 + The inner template class ListNode<T> (declare it only inside
 the private scope of the class List. In this case users won't be able to see
 that Node class is defined). This class should store two pointers to the left
@@ -43,9 +43,9 @@ it will represent.
 + Create your own exceptions for the most trivial errors (access to non-existing index etc).
 
 
-######### Note: maybe later I'll post some tests.
+####Note: maybe later I'll post some tests.
 
-###Deadline
+### Deadline
 + FIRST: One week starting from now (25.04 23:59), so the deadline will be May 2-th 23:59.
 Before that time you should send me at least the first version of the code.
 + SECOND: Two weeks starting from now (25.04 23:59), so the deadline will be May 9-th 23:59.
