@@ -43,7 +43,7 @@ it will represent.
 + Create your own exceptions for the most trivial errors (access to non-existing index etc).
 
 
-####Note: maybe later I'll post some tests.
+#### Note: maybe later I'll post some tests.
 
 ### Deadline
 + FIRST: One week starting from now (25.04 23:59), so the deadline will be May 2-th 23:59.
