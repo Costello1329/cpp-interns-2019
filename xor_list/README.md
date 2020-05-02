@@ -31,11 +31,6 @@ it will represent.
 + pop_back() method
 + push_front() method
 + pop_front() method
-+ operator[] (get i-th element of the list)
-+ exists() method, that will return true if the element exists inside the list, otherwise false. 
-+ insert_before(index, value) - insert value before the i-th position inside the list.
-+ insert_after(index, value)
-+ erase(index) - delete i-th element from the list.
 + bool empty() - return true if the list is empty
 + clear method
 + front() method (returns value of the first element)
