@@ -39,7 +39,15 @@ it will represent.
 + Create your own exceptions for the most trivial errors (access to non-existing index etc).
  
 #### Second part:
-Will be anounced soon!
+Implement your own list iterator class inside your List class (just call it iterator).
++ Implement operator ++ (prefix and postfix)
++ Implement operator -- (prefix and postfix)
++ Implement operator *
+
+##### Add new methods inside the list class:
++ Implement insert method
++ Implement erase method
++ Implement merge method
 
 ### Deadline
 + First part: May 3-th 23:59.
