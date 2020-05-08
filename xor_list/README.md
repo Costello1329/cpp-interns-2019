@@ -48,6 +48,8 @@ Implement your own list iterator class inside your List class (just call it iter
 + Implement insert method
 + Implement erase method
 + Implement merge method
++ Implement begin method, which returns the iterator to the first element.
++ Implement end method, which returns the iterator to the element after the last one.
 
 ### Deadline
 + First part: May 3-th 23:59.
