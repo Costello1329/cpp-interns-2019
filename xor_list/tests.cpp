@@ -461,7 +461,7 @@ int main () {
         ///------------------------------------------------------------///
 
         std::cout << "Our list prints: " << std::endl;
-        std::list<int> ourList;
+        List<int> ourList;
 
         for (size_t i = 0; i < 10; i ++)
             ourList.push_back(i + 1);
