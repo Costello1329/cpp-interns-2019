@@ -545,7 +545,7 @@ int main () {
 
         std::cout << "{ ";
 
-        for (List::iterator i = ourList.begin(); i != ourList.end(); ++ i)
+        for (List<int>::iterator i = ourList.begin(); i != ourList.end(); ++ i)
             std::cout << *i << " ";
 
         std::cout << "}" << std::endl;
@@ -555,7 +555,7 @@ int main () {
 
         std::cout << "{ ";
 
-        for (List::iterator i = ourList.begin(); i != ourList.end(); ++ i)
+        for (List<int>::iterator i = ourList.begin(); i != ourList.end(); ++ i)
             std::cout << *i << " ";
 
         std::cout << "}" << std::endl;
@@ -565,7 +565,7 @@ int main () {
 
         std::cout << "{ ";
 
-        for (List::iterator i = ourList.begin(); i != ourList.end(); ++ i)
+        for (List<int>::iterator i = ourList.begin(); i != ourList.end(); ++ i)
             std::cout << *i << " ";
 
         std::cout << "}" << std::endl;
