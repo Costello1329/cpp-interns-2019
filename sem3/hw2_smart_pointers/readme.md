@@ -1,4 +1,4 @@
-# H/w 1: smart_pointers
+# H/w 2: smart_pointers
 
 ### Task itself
 Implement 2 smart template classes, the analogues for STL smart pointers: UniquePtr (std::unique_ptr) and SharedPtr (std::shared_ptr).
