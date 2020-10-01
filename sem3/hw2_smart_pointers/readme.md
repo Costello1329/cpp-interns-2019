@@ -1,7 +1,7 @@
 # H/w 2: smart_pointers
 
 ### Task itself
-Implement 2 smart template classes, the analogues for STL smart pointers: UniquePtr (std::unique_ptr) and SharedPtr (std::shared_ptr).
+Implement 2 template classes, the analogues for STL smart pointers: UniquePtr (std::unique_ptr) and SharedPtr (std::shared_ptr).
 
 ##### UniquePtr. Implement:
 + Constructor from the raw pointer
@@ -10,8 +10,7 @@ Implement 2 smart template classes, the analogues for STL smart pointers: Unique
 + destructor
 + Operator *
 + Operator ->
-+ You also should delete the defaultly generated copy constructor and operator =
-
++ You also should delete the copy constructor and operator = that compile generates by default (see =delete topic)
 
 ##### SharedPtr. Implement:
 + Constructor from the raw pointer
