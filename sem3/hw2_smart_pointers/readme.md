@@ -10,7 +10,7 @@ Implement 2 template classes, the analogues for STL smart pointers: UniquePtr (s
 + destructor
 + Operator *
 + Operator ->
-+ You also should delete the copy constructor and operator = that compile generates by default (see =delete topic)
++ You also should delete the copy constructor and operator = that compiler generates by default (see =delete topic)
 
 ##### SharedPtr. Implement:
 + Constructor from the raw pointer
