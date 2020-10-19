@@ -34,4 +34,4 @@ This is an easy task. If you'll watch the recording of the seminar – you'll ge
 task costs 15 points
 
 #### Deadline
-Oct 28 2020, 23:59:59.
+Nov 4 2020, 23:59:59.
