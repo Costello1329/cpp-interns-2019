@@ -1,4 +1,4 @@
-# H/w 2: smart_pointers
+# H/w 3: vector
 
 ### Task itself
 Implement vector, the analogue for STL std::vector.
